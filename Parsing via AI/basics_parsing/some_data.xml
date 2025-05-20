@@ -1,0 +1,39 @@
+<company name="TechNova">
+    <office location="New York" established="2010">
+        <open_hours>
+            <day name="monday">9:00-18:00</day>
+            <day name="tuesday">9:00-18:00</day>
+            <day name="wednesday">9:00-18:00</day>
+            <day name="thursday">9:00-18:00</day>
+            <day name="friday">9:00-17:00</day>
+        </open_hours>
+    </office>
+    <remote_policy>true</remote_policy>
+    <employees>
+        <employee id="1" full_time="true">
+            <name>Alice Johnson</name>
+            <age>29</age>
+            <department>Engineering</department>
+            <skills>
+                <skill>Python</skill>
+                <skill>JavaScript</skill>
+                <skill>AWS</skill>
+            </skills>
+        </employee>
+        <employee id="2" full_time="false">
+            <name>Bob Smith</name>
+            <age>35</age>
+            <department>Marketing</department>
+            <skills>
+                <skill>SEO</skill>
+                <skill>Content Writing</skill>
+            </skills>
+        </employee>
+        <employee id="3" full_time="true">
+            <name>Charlie Lee</name>
+            <age>41</age>
+            <department>Human Resources</department>
+            <skills />
+        </employee>
+    </employees>
+</company>

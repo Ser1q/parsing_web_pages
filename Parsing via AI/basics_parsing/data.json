@@ -1,0 +1,48 @@
+{
+    "company": "TechNova",
+    "employees": [
+        {
+            "id": 1,
+            "name": "Alice Johnson",
+            "age": 29,
+            "department": "Engineering",
+            "skills": [
+                "Python",
+                "JavaScript",
+                "AWS"
+            ],
+            "full_time": true
+        },
+        {
+            "id": 2,
+            "name": "Bob Smith",
+            "age": 35,
+            "department": "Marketing",
+            "skills": [
+                "SEO",
+                "Content Writing"
+            ],
+            "full_time": false
+        },
+        {
+            "id": 3,
+            "name": "Charlie Lee",
+            "age": 41,
+            "department": "Human Resources",
+            "skills": [],
+            "full_time": true
+        }
+    ],
+    "office": {
+        "location": "New York",
+        "established": 2010,
+        "open_hours": {
+            "monday": "9:00-18:00",
+            "tuesday": "9:00-18:00",
+            "wednesday": "9:00-18:00",
+            "thursday": "9:00-18:00",
+            "friday": "9:00-17:00"
+        }
+    },
+    "remote_policy": true
+}
